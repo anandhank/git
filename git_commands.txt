@@ -1,0 +1,12 @@
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/anandhank/AngularJS.git
+git push -u origin master
+
+
+for storing pwd and user id of git
+$ git config credential.helper store
+$ git push http://example.com/repo.git
+Username: <type your username>
+Password: <type your password>
