@@ -1,5 +1,7 @@
-create a new repository on the command line
 echo "# Java-Spring" >> README.md
+
+create a new repository on the command line in local and add it to git hub
+
 git init
 git add README.md
 git commit -m "first commit"
@@ -7,8 +9,17 @@ git branch -M master
 git remote add origin https://github.com/anandhank/Java-Spring.git
 git push -u origin master
 
-push an existing repository from the command line
-git remote add origin https://github.com/anandhank/Java-Spring.git
+if remote repository exists from the command line
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git push -u origin master
+
+for further commits:
+
+git add .
+git commit -m "update commit"
 git branch -M master
 git push -u origin master
                 
